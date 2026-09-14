@@ -1,106 +1,32 @@
 # QUEAST · System-Framework  
 **by iki1uc — Proprietär — Closed Source**
 
-QUEAST ist ein modularer System‑Cluster, bestehend aus Engines, Rooms, RAWATOR‑Systemen, HDF‑ROM‑Ahnen und einer zentralen Oberfläche.  
-Dieses Framework bildet eine vollständige technische Familie, deren Module logisch voneinander abstammen und miteinander interagieren.
+„Na und.“
 
-Dieses Dokument erklärt die Struktur, Abstammung und Funktion aller Module.
+Das sagte er, ohne die Augen zu heben.
+Nicht trotzig.
+Nicht müde.
+Einfach… frei.
 
----
+„Wenn die Welt mir ein Gewicht hinlegt,“  
+fuhr er fort,
+„dann entscheide ich selbst, ob ich es trage.“
 
-# 🧬 System-Diagramm (Familienstruktur)
+Der Wind zog an seinem Mantel,
+als wäre er ein zweiter Gedanke.
 
-┌──────────────┐
-│   SYS.js     │  ← System-Kernel
-└──────┬───────┘
-│
-┌──────┴───────┐
-│   core.js     │  ← Core-Engine
-└──────┬───────┘
-│
-┌───────────────┼────────────────┐
-│               │                │
-│ axiom.js      │ axiom.map.js   │  ← Axiom-DNA
-│               │                │
-└───────────────┴────────────────┘
+„Na und heißt,“  
+und seine Stimme war leise,
+„dass ein Fakt existiert —
+aber nicht über mich.“
 
-┌──────────────┬───────────────┬───────────────┐
-│ HOLO.room.js │ NC.room.js     │ RESPO.room.js │
-│ HOLO.engine  │ atom.js        │ beam.js       │
-└──────────────┴───────────────┴───────────────┘
+Ein Schritt.
+Ein Atemzug.
+Ein Blick nach vorn.
 
-
-### 🔹 HOLO.engine.js  
-**Position:** Kind‑Modul  
-**Eltern:** core.js, axiom.js  
-**Geschwister:** NC.room.js, RESPO.room.js, atom.js, beam.js  
-**Kinder:** HOLO_ROOM.frames (81 Frames)  
-**Enkel:** rawator‑81.js (nutzt HOLO‑Frames)
-
----
-
-## 🧒 RAWATOR-SYSTEM (Enkel)
-
-Diese Dateien hängen von HOLO, NC, AXIOM und CORE ab.
-
-┌──────────────┬───────────────┬──────────────┐
-│ rawator.js   │ rawator-life  │ rawator-81    │
-│ geo.json     │ id.json       │ sli.ready     │
-└──────────────┴───────────────┴──────────────┘
-
-
----
-
-## 🧓 HDF-ROMs (Ahnen)
-
-Unveränderliche Axiom‑Zustände:
-
-d.hdf.rom
-e.hdf.rom
-i.hdf.rom
-n.hdf.rom
-o.hdf.rom
-r.hdf.rom
-s.hdf.rom
-u.hdf.rom
-w.hdf.rom
-
-
----
-
-## 🧬 RAW-Dateien (Gene)
-
-d.raw
-sli.ready
-use.json
-user.json
-
-
----
-
-## 🖥️ Oberfläche (Skin)
-
-index.html
-
-
-Die zentrale Schaltstelle, die alle Engines, Rooms und RAWATOR‑Systeme sichtbar macht.
-
----
-
-# 📌 Zusammenfassung: Position von HOLO.engine.js
-
-**HOLO.engine.js ist ein Kind‑Modul, das:**
-
-- von SYS.js, core.js und axiom.js abstammt  
-- HOLO.room.js als direkten Nachfahren hat  
-- 81 HOLO‑Frames erzeugt (Kinder)  
-- vom RAWATOR‑System genutzt wird (Enkel)  
-- auf Axiom‑ROMs basiert (Ahnen)  
-- in index.html sichtbar wird (Oberfläche)
-
-Es ist ein zentrales Modul der QUEAST‑Familie.
-
----
+„Na und ist die Freiheit,“  
+sagte er,
+„die selbst Götter nicht löschen können.“
 
 # 🔒 LICENSE-CLOSED.txt
 
